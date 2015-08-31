@@ -87,4 +87,30 @@ button {
 }
 
 
+@media screen and (min-width: 1122px) {
+	section {
+		overflow: hidden;
+		box-sizing: border-box;
+		padding: 0.75em 1em;
+	}
+
+	.block1 {
+		width: 30%;
+	}
+
+	.block2 {
+		width: 30%;
+	}
+
+	.block3 {
+		float: left;
+		width: 30%;
+		margin: 0 1em;
+		box-sizing: border-box;
+		clear: none;
+	}
+
+	button {
+		clear: both;
+	}
 }
